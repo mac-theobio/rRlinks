@@ -10,7 +10,7 @@ vim_session:
 
 ######################################################################
 
-Sources += DESCRIPTION .Rbuildignore
+Sources += DESCRIPTION .Rbuildignore NAMESPACE
 Sources += $(wildcard R/*.R)
 
 ## R/gen.R (generalized exp/log)
