@@ -25,6 +25,9 @@ Sources += $(wildcard dev/*.R)
 dev/gen.Rout: dev/gen.R
 	$(makeR)
 
+dev/pix.Rout: dev/pix.R
+	$(pipeR)
+
 ######################################################################
 
 ### Makestuff
